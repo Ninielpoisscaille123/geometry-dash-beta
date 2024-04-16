@@ -1,0 +1,39 @@
+{
+    "name": "geometry dash beta",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "pxt-scaling": "github:jwunderl/pxt-scaling#v0.1.0",
+        "pxt-arcade-image-transform": "github:robo-technical-group/pxt-arcade-image-transform#v1.0.8",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.1",
+        "pxt-lantern": "github:felixtsu/pxt-lantern#v0.2.0",
+        "arcade-soundtrack": "github:livcheerful/arcade-soundtrack#v1.0.5",
+        "Songs": "github:LucasMayhew/RPGMuisic#f26c7df84609da0be7af7e16d2a64dcd095c1716",
+        "pxt-rtttl": "github:pelikhan/pxt-rtttl#v0.0.11"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.8.22",
+        "tag": "v1.8.22",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/6017af228c87817006b555668c65933bf3cbff4c",
+        "target": "1.12.51",
+        "pxt": "7.4.26",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
